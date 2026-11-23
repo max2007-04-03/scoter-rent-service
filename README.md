@@ -1,16 +1,8 @@
-# Scooter Rent API
+# Scooter Rent Service
 
-Серверна частина застосунку для оренди самокатів (Spring Boot + PostgreSQL).
+Сервіс оренди електросамокатів (Java / Gradle).
 
-## Вимоги для запуску
-Для локального запуску проєкту на вашому комп'ютері мають бути встановлені:
-* **Java 17** (JDK)
-* **Docker** та **Docker Compose**
-
-## Як запустити проєкт локально
-
-### Крок 1. Запуск бази даних
-У проєкті використовується база даних PostgreSQL, налаштована через Docker. Щоб підняти базу даних, відкрийте термінал у корені проєкту та виконайте команду:
-
-```bash
-docker-compose up -d
+## Запуск проєкту
+1. Клонуйте репозиторій: `git clone https://github.com/max2007-04-03/scoter-rent-service.git`
+2. Запустіть через Docker Compose: `docker-compose up -d`
+3. Або зберіть через Gradle: `./gradlew bootRun`
